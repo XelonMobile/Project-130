@@ -27,7 +27,7 @@ function modelLoaded() {
     console.log('PoseNet Is Initilized');
 }
 
-function gotPoses() 
+function gotPoses(results) 
 {
     if(results.length > 0)
     {
@@ -98,6 +98,6 @@ function draw()
 function play()
 {
     song1.play();
-    song.setVolume(1);
-    song.rate(1);
+    song1.setVolume(1);
+    song1.rate(1);
 }
